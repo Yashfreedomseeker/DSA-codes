@@ -15,8 +15,10 @@ public class insertionSortTest {
         // TODO code application logic here
         int[] a = {1,9,5,3,6,2,8,7};
         insertionSort is = new insertionSort();
-        is.insertionsort(a, 8);
+        is.insertionsort(a);
         is.printarr(a);
+        int[] x = is.addElement(a, 4);
+        is.printarr(x);
     }
     
 }
