@@ -8,7 +8,7 @@ package bubblesort;
  *
  * @author Yash
  */
-public class bubbleSort {
+public class bubbleSorto {
     
     public void printarr(int[] arr){
         int n = arr.length;
